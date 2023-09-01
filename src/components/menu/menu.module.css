@@ -1,0 +1,59 @@
+.fundoMenu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #ffffff00;
+    top: 0;
+    left: 0;
+  }
+  
+  .menuBand {
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .menuBand ul {
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-radius: 1em;
+    background: #393053;
+    width: 9em;
+    height: 11em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 2s;
+    animation: fadeOut 0.2s;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      width: 1rem;
+    }
+  }
+  
+  .menuBand ul li {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuBand ul li:hover {
+    background: #1f2123;
+    background: #393053;
+    border-radius: 0.5em;
+  }
+  
+  .menuBand ul li a {
+    text-decoration: none;
+    color: #383e44;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  

@@ -33,9 +33,21 @@ body {
 }
 
 .logo img {
-  width: 70%;
+  width: 15rem;
   height: auto;
   display: block;
+}
+.searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -4.2rem 0rem 8rem 16rem;
+  gap: 1em;
+}
+.searchBar {
+  color:white ;
+  font-size: 4em;
+
 }
 
 .search {
@@ -57,12 +69,9 @@ body {
   background: #3930531a;
   font-size: 1.5rem;
   font-weight: 500;
+  color: white;
 }
-.search img {
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-}
+
 .si {
   opacity: 50%;
 }
